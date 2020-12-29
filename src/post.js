@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { getPosts } from './redux/Reducers/Post/postActions';
+import { getPosts } from './redux/Post/postActions';
 class posts extends Component {
     render() {
         console.log(this.props.post.post);

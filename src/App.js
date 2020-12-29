@@ -8,6 +8,7 @@ import {
 import Post from './post';
 import './App.css';
 
+
 function App() {
   return (
     <div className="App">
@@ -32,6 +33,7 @@ function App() {
     </div>
   );
 }
+
 export default App;
 
 function Home() {
@@ -39,5 +41,6 @@ function Home() {
     <h1>Home</h1>
     <h3>Using redux in react project</h3>
     <h2>Author : Saeed Khazaei</h2>
+    <a href="https://github.com/Saeed-Khazaei/redux"><button>Source Code</button></a>
   </div>;
 }
